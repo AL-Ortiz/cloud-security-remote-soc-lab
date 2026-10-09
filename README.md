@@ -130,3 +130,33 @@ This is a simulated learning project. Architecture, logs, alerts, and incident d
 ## Project Outcome
 
 This project demonstrates a documented security workflow spanning cloud security design, identity and access management, alert investigation, incident response, remote analyst communication, remediation, and continuous improvement.
+
+## Project Documentation
+
+### 1. Cloud Security Foundation
+
+- [Cloud Architecture](01-cloud-security-foundation/architecture.md) — Proposed Azure network architecture and security principles.
+- [RBAC Access Matrix](01-cloud-security-foundation/rbac-matrix.md) — Role-based access control and least-privilege design.
+- [Conditional Access](01-cloud-security-foundation/conditional-access.md) — Proposed MFA, sign-in, and privileged-access controls.
+- [Network Segmentation](01-cloud-security-foundation/network-segmentation.md) — Network boundaries, traffic restrictions, and validation planning.
+
+### 2. SOC Monitoring and Investigation
+
+- [Alert Triage](02-soc-monitoring/alert-triage.md) — Alert validation, severity assessment, investigation, and escalation.
+- [KQL Investigation Queries](02-soc-monitoring/kql-investigation-queries.md) — Example queries for authentication, endpoint, and network investigations.
+- [EDR Investigation](02-soc-monitoring/edr-investigation.md) — Process-tree analysis, suspicious script execution, and containment recommendations.
+- [MITRE ATT&CK Mapping](02-soc-monitoring/mitre-attack-mapping.md) — Mapping observed behavior to potential techniques and detection opportunities.
+
+### 3. Incident Response
+
+- [Incident Timeline](03-incident-response/incident-timeline.md) — Chronological reconstruction of the simulated incident.
+- [Incident Report](03-incident-response/incident-report.md) — Findings, risk assessment, and response recommendations.
+- [Remote SOC Handoff](03-incident-response/soc-handoff.md) — Investigation status, outstanding tasks, and shift-handoff communication.
+- [Remediation Plan](03-incident-response/remediation-plan.md) — Prioritized corrective actions and validation criteria.
+- [Lessons Learned](03-incident-response/lessons-learned.md) — Continuous improvement recommendations and proposed performance measures.
+
+## Project Scope and Limitations
+
+This is a documentation-based cybersecurity portfolio project using a fictional organization and simulated security events. The architecture, policies, queries, and response procedures are proposed designs or examples; they were not deployed or validated in a live production environment.
+
+The project demonstrates security analysis, investigation planning, technical documentation, evidence-based reasoning, and remote SOC communication.
